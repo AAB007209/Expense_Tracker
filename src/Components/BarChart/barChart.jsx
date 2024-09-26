@@ -19,7 +19,7 @@ export default function BarChartComponent({ data }) {
                         <XAxis type="number" axisLine={false} display="none" />
                         <YAxis
                             type="category"
-                            width={100}
+                            width={140}
                             dataKey="name"
                             axisLine={false}
                         />

@@ -1,8 +1,8 @@
 import styles from "./HomePage.module.css"
 import Card from "../Components/Card/card";
-import PieChart from "../Components/PieChart/PieChart";
+import PieChart from "../Components/PieChart/pieChart";
 import TransactionList from "../Components/TransactionList/transactionList";
-import BarChart from "../Components/BarChart/BarChart";
+import BarChart from "../Components/BarChart/barChart";
 import Modal from "../Components/Modal/modal";
 import ExpenseForm from "../Components/Forms/ExpenseForm/expenseForm";
 import AddBalanceForm from "../Components/Forms/AddBalanceForm/addBalanceForm";
@@ -154,9 +154,9 @@ const HomePage = () => {
 
                 <BarChart
                     data={[
-                        { name: "Food", value: categorySpends.food },
-                        { name: "Entertainment", value: categorySpends.entertainment },
-                        { name: "Travel", value: categorySpends.travel },
+                        { name: "FOOD", value: categorySpends.food },
+                        { name: "ENTERTAINMENT", value: categorySpends.entertainment },
+                        { name: "TRAVEL", value: categorySpends.travel },
                     ]}
                 />
             </div>
